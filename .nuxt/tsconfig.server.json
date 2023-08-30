@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/Myself/Desktop/HRM project js/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/Myself/Desktop/HRM project js/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/Myself/Desktop/HRM project js"
+      ],
+      "~/*": [
+        "C:/Users/Myself/Desktop/HRM project js/*"
+      ],
+      "@": [
+        "C:/Users/Myself/Desktop/HRM project js"
+      ],
+      "@/*": [
+        "C:/Users/Myself/Desktop/HRM project js/*"
+      ],
+      "~~": [
+        "C:/Users/Myself/Desktop/HRM project js"
+      ],
+      "~~/*": [
+        "C:/Users/Myself/Desktop/HRM project js/*"
+      ],
+      "@@": [
+        "C:/Users/Myself/Desktop/HRM project js"
+      ],
+      "@@/*": [
+        "C:/Users/Myself/Desktop/HRM project js/*"
+      ],
+      "assets": [
+        "C:/Users/Myself/Desktop/HRM project js/assets"
+      ],
+      "public": [
+        "C:/Users/Myself/Desktop/HRM project js/public"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/Myself/Desktop/HRM project js/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
